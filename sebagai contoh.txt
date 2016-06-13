@@ -1,2 +1,0 @@
-git config --global user.name "nama akuindi git hub"
-git config --global user.email "email anda"
