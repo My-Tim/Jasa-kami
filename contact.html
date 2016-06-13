@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WiNews | Contact</title>
+    <link rel="shortcut icon" href="images/winews.icon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><i class="fa fa-windows" style="font-size:30px; color:#0FADA6;"></i> WiNews</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html"><i class="fa fa-fw fa-sign-in" style="font-size:15px;"></i>ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com/WiNewsOfficial" target="_blank"><i class="fa fa-fw fa-facebook-square" style="font-size:15px; color:#1938EF"></i>facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank"><i class="fa fa-fw fa-twitter-square" style="font-size:15px;color:#0091FB"></i>twitter</a>
+                    </li>
+                    <li>
+                        <a href="#http://blog.winews.esy.es.com/index.html"><i class="fa fa-fw fa-book" style="font-size:20px;color:#fff"></i>Blog</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Contact</h1>
+                   <ol class="breadcrumb">
+                    <li><a href="index.html"><span class="glyphicon glyphicon-home" style="font-size:18px; color:#000C96;"></span></a>
+                    </li>
+                    <li class="active">Contact</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <h3 style="text-align:center">Ada pertanyaan ?</h3>
+                <h4 style="text-align:center">Silahkan Tanyakan</h4>
+              <form name="sentMessage" id="contactForm" method="post">
+                
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Full Name:</label>
+                            <input type="text" class="form-control" id="name" required>
+                      </div>
+                    </div>
+                    
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Phone Number:</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+                    </div>
+                    
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Email Address:</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="control-group form-group">
+                      <div class="controls">
+                            <label>Message:</label>
+                            <textarea rows="10" cols="100" class="form-control" id="message" maxlength="999" style="resize:none" required placeholder="Silahkan masukkan komentar anda disini"></textarea>
+                        </div>
+                    </div>
+                    
+                     <input type="submit" value="Send" formaction="sukses.html">
+                     
+              </form>
+            </div>
+        </div>
+        <hr>
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p><a class="navbar-brand" href="index.html"><i class="fa fa-windows fa-6x" style="font-size:30px; color:#0FADA6;"></i> WiNews</a></p>
+                </div>
+            </div>
+        </footer>
+</div>
+<hr>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    $('.carousel').carousel({
+        interval: 5000
+    })
+    </script>
+
+</body>
+
+</html>
